@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Poor+Story&display=swap');
+
+body {
+    /* i prefer to use longhand for the background properties */
+    background-image: url('WD34_Exercise4_Tena.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Kolker Brush', cursive;
+}
+
+div {
+    background-color: rgba(255,0,0,0.5);
+    color: rgb(255, 192, 203);
+    font-family: 'Poor Story', cursive;
+    letter-spacing: 4px;
+    word-spacing: 8px;
+}
+.greenBackground {
+    background-color: #00ff00;
+    color: #ffff00;
+}
+#sampleId {
+    color: rgb(0,0,0);
+}
+.sampleBox {
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 8px 0; /* 16px top and bottom only */
+    padding: 8px 4px; /* 4px right and left; 8px top and bottom */
+    border: 0.4em solid green;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 0 yellow;
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: light;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: line-through;
+    text-align: center;
+}
+/* the following shows shorhand way for the border */
+div {
+    margin: 1em;
+}
+.solid {
+    border: 10px solid tomato;
+}
+.dotted {
+    border: 10px dotted teal;
+}
+.dashed {
+    border: 10px dashed crimson;
+}
+.double {
+    border: 10px double seagreen;
+}
+.groove {
+    border: 10px groove seagreen;
+}
+.ridge {
+    border: 10px ridge purple;
+}
+.inset {
+    border: 10px inset gray;
+}
+.outset {
+    border: 10px outset dodgerblue;
+}
+.radius {
+    border: 10px solid goldenrod;
+    border-radius: 50px;
+}
+.overflowSample {
+    width: 300px; height: 150px; overflow-y: scroll;
+    text-indent: 2em;
+}
